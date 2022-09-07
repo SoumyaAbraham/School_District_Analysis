@@ -1,6 +1,6 @@
 # School_District_Analysis
 ### Overview:
-Using Python pandas library and Jupyter Notebook to analyze the performances in various schools in the district. We are looking for possible corelations in the school budgets and school size with performance. &nbsp;
+Using Python pandas library and Jupyter Notebook to analyze the performances in various schools in the district. We are looking for possible corelations in the school budgets, school size and school type with performance. &nbsp;
 There are two sets of deliverables we are looking for: &nbsp;
 
   1. Replacing the ninth-grade Reading and Math scores.
@@ -145,7 +145,7 @@ However, when they are compared to the _large_ size bin, we can see quite the dr
 
 ### School type Summary:
 
-Finally, let us analyze the school performance baed on the _type of school_ :  
+Finally, let us analyze the school performance based on the _type of school_ :  
 
 Original:  
 ![school-type](https://github.com/SoumyaAbraham/School_District_Analysis/blob/main/Screenshots/19.%20type_summary.png)  
@@ -161,11 +161,11 @@ However, it is very clear from the dataframes that _Charter schools_ perform _be
 
 ## Summary:  
 
-*When we removed the scores for 9th grade at Thomas High School, we removed 1174 student grades out of a total 39170 student grades. That is roughly 3% of the total database. This may explain why we do not see a substantial difference in the original and modified dataframes.  
+* When we removed the scores for 9th grade at Thomas High School, we removed 1174 student grades out of a total 39170 student grades. That is roughly 3% of the total database. This may explain why we do not see a substantial difference in the original and modified dataframes.  
 
 * We also noticed that the increase in budget per school showed a decrease in performance. This can be helpful when making budget plans for the new year.  
 * We notice that larger schools have been performing poorer than those of a smaller size.  
-* lastly, we see that Charter schools perform better than district schools.
+* Lastly, we see that Charter schools perform better than District schools.
 
 ---
 
